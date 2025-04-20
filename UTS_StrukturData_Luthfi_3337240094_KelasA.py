@@ -94,7 +94,7 @@ def load_data():
             return None
     else:
         try:
-            df = pd.read_excel(r'C:\Users\HP\Downloads\PaperData.xlsx')
+            df = pd.read_excel(r'masukkan_sumber_datasheet_offline_disini')
             print("✅ Successfully loaded local Excel file!")
         except FileNotFoundError:
             print("\n❌ Error: File not found. Check the path.")
